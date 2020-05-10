@@ -13,6 +13,10 @@
 		E7D77B9A2467AD46007E5869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D77B982467AD46007E5869 /* Main.storyboard */; };
 		E7D77B9C2467AD48007E5869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D77B9B2467AD48007E5869 /* Assets.xcassets */; };
 		E7D77B9F2467AD48007E5869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D77B9D2467AD48007E5869 /* LaunchScreen.storyboard */; };
+		E7D77BA72467AD5A007E5869 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D77BA62467AD5A007E5869 /* Modal.swift */; };
+		E7D77BA92467BA82007E5869 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D77BA82467BA82007E5869 /* View.swift */; };
+		E7D77BAB2467C4D6007E5869 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D77BAA2467C4D6007E5869 /* Controller.swift */; };
+		E7D77BAD2467DD16007E5869 /* CreateTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D77BAC2467DD16007E5869 /* CreateTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E7D77B9B2467AD48007E5869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7D77B9E2467AD48007E5869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7D77BA02467AD48007E5869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D77BA62467AD5A007E5869 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		E7D77BA82467BA82007E5869 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		E7D77BAA2467C4D6007E5869 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		E7D77BAC2467DD16007E5869 /* CreateTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				E7D77B922467AD46007E5869 /* AppDelegate.swift */,
 				E7D77B942467AD46007E5869 /* SceneDelegate.swift */,
 				E7D77B962467AD46007E5869 /* ViewController.swift */,
+				E7D77BAA2467C4D6007E5869 /* Controller.swift */,
+				E7D77BAC2467DD16007E5869 /* CreateTask.swift */,
+				E7D77BA62467AD5A007E5869 /* Modal.swift */,
+				E7D77BA82467BA82007E5869 /* View.swift */,
 				E7D77B982467AD46007E5869 /* Main.storyboard */,
 				E7D77B9B2467AD48007E5869 /* Assets.xcassets */,
 				E7D77B9D2467AD48007E5869 /* LaunchScreen.storyboard */,
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D77B972467AD46007E5869 /* ViewController.swift in Sources */,
+				E7D77BAD2467DD16007E5869 /* CreateTask.swift in Sources */,
 				E7D77B932467AD46007E5869 /* AppDelegate.swift in Sources */,
+				E7D77BA92467BA82007E5869 /* View.swift in Sources */,
+				E7D77BAB2467C4D6007E5869 /* Controller.swift in Sources */,
 				E7D77B952467AD46007E5869 /* SceneDelegate.swift in Sources */,
+				E7D77BA72467AD5A007E5869 /* Modal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
