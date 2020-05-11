@@ -17,6 +17,7 @@
 		E7D77BA92467BA82007E5869 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D77BA82467BA82007E5869 /* View.swift */; };
 		E7D77BAB2467C4D6007E5869 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D77BAA2467C4D6007E5869 /* Controller.swift */; };
 		E7D77BAD2467DD16007E5869 /* CreateTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D77BAC2467DD16007E5869 /* CreateTask.swift */; };
+		E7D77BAF2468C90E007E5869 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D77BAE2468C90E007E5869 /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E7D77BA82467BA82007E5869 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		E7D77BAA2467C4D6007E5869 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		E7D77BAC2467DD16007E5869 /* CreateTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTask.swift; sourceTree = "<group>"; };
+		E7D77BAE2468C90E007E5869 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				E7D77B962467AD46007E5869 /* ViewController.swift */,
 				E7D77BAA2467C4D6007E5869 /* Controller.swift */,
 				E7D77BAC2467DD16007E5869 /* CreateTask.swift */,
+				E7D77BAE2468C90E007E5869 /* CreateViewController.swift */,
 				E7D77BA62467AD5A007E5869 /* Modal.swift */,
 				E7D77BA82467BA82007E5869 /* View.swift */,
 				E7D77B982467AD46007E5869 /* Main.storyboard */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D77BAF2468C90E007E5869 /* CreateViewController.swift in Sources */,
 				E7D77B972467AD46007E5869 /* ViewController.swift in Sources */,
 				E7D77BAD2467DD16007E5869 /* CreateTask.swift in Sources */,
 				E7D77B932467AD46007E5869 /* AppDelegate.swift in Sources */,

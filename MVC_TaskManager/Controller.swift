@@ -11,8 +11,9 @@ import UIKit
 
 /*
  Controllerの役割
- TaskDataSourcekらデータをロード
- ロードしたデータをTableViewCellに反映させる
+ 1. TaskDataSourcekらデータをロード
+ 2. ロードしたデータをTableViewCellに反映させる
+ 3. タスク作成画面への遷移
  */
 
 class TaskListViewController: UIViewController {
@@ -45,8 +46,8 @@ class TaskListViewController: UIViewController {
     
     @objc func barButtonTapped(_ sender: UIBarButtonItem) {
         //タスク作成画面へ遷移
-        let controller = CreateTaskViewController()
-        let navi = UINavigationController(rootViewController: conrtoller)
+        let controller = CreateViewController()
+        let navi = UINavigationController(rootViewController: controller)
         present(navi, animated: true, completion: nil)
     }
 }

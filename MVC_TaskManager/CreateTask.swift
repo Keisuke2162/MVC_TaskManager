@@ -76,7 +76,8 @@ class CreateTaskView: UIView {
     @objc func datePickerValueChanged(_ sender: UIDatePicker) {
         
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy/mm/dd"
+        //dateFormatter.dateFormat = "yyyy/mm/dd"
+        dateFormatter.dateFormat = "EEE MMM hh:mm"
         
         let deadlineText = dateFormatter.string(from: sender.date)
         deadlineTextField.text = deadlineText
@@ -93,7 +94,7 @@ class CreateTaskView: UIView {
                                      height: 50)
         
         deadlineTextField.frame = CGRect(x: taskTextField.frame.origin.x,
-                                         y: taskTextField.frame.origin.y,
+                                         y: taskTextField.frame.origin.y + 30,
                                          width: taskTextField.frame.size.width,
                                          height: taskTextField.frame.size.height)
         

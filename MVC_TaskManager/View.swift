@@ -45,7 +45,8 @@ class TaskListCell: UITableViewCell {
             taskLabel.text = t.text
             
             let formatter = DateFormatter()
-            formatter.dateFormat = "yyyy/mm/dd"
+            //formatter.dateFormat = "yyyy/mm/dd"
+            formatter.dateFormat = "EEE MMM hh:mm"
             
             deadlineLabel.text = formatter.string(from: t.deadline)
         }
